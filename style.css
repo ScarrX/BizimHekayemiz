@@ -1,0 +1,2620 @@
+/*Başlıq-------------------------------------------------------------------------------------------------*/
+
+body{
+    display: flex;
+    background-color: rgb(255, 233, 238);
+    justify-content: center;
+    min-width: 1200px;
+    overflow-x: auto;
+}
+
+.box{
+    display: flex;
+    background-color: white;
+    height: 18470px;
+    width: 1200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    position: relative;
+
+}
+
+.header{
+    font-family: 'Dancing Script', cursive;
+    color: #ff4d6d;
+    font-size: 3em;
+}
+
+.introtext{
+    font-family:  'Poppins', sans-serif;
+    font-size: 18px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+hr {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+/*Birinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.textbox1{
+    display: flex;
+    width: 430px;
+    flex-direction: column;
+    height: 650px;
+    
+}
+
+.photbox1{
+    width: 550px;
+}
+
+.photo1{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.photo2{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.date{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 55px;
+}
+
+.text1{
+    font-size: 25px;
+    margin-top: 5px;
+    font-family:  'Poppins', sans-serif;
+}
+
+.photoaround2{
+    display:flex;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transform: rotate(-25deg);
+    position: absolute;
+    z-index: 2;
+    left: 580px;
+    top: 900px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.photoaround1{
+    display:flex;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    left: 820px;
+    top: 780px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*İkinci səhifə-------------------------------------------------------------------------------------------------*/
+
+.two{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photobox2{
+    display: grid;
+    width: 600px;
+    height: 770px;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 260px 220px 260px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.textbox2{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 850px;   
+}
+
+.photoblock1{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-content: center;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.photoblock2{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-content: center;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.photoblock3{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-content: center;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.photoblock4{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-content: center;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/*Üçüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.three{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video1{
+    width: 600px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.textbox3{
+    width: 550px;
+    height: 470px;
+}
+
+.photobox3{
+    width: 600px;
+    height: 470px;
+}
+.textmusic{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:  'Poppins', sans-serif;
+}
+
+.textheader1{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+
+.text3{
+    display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+}
+
+/*Dördüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.four{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video2{
+    width: 600px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.textbox4{
+    width: 550px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photobox4{
+    width: 600px;
+    height: 360px;
+}
+.textmusic{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0px;
+}
+
+.text4{
+    display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.date4{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.textheader4{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.cursive{
+    font-style: italic;
+}
+
+.hr4 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+/*Beşinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.five{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.textbox5{
+    width: 550px;
+    height: 470px;
+}
+
+.photobox5{
+    width: 600px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textheader1{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.text5{
+    display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.date5{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.textheader5{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.photo8{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+    top: 3535px;
+    transform: scaleX(-1);
+    right: 50px;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+.photo9{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 2;
+    right: 240px;
+    top: 3465px;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+/*Altıncı səhifə-------------------------------------------------------------------------------------------------*/
+
+.six{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+    height: 480px ;
+}
+
+.textbox6{
+    width: 690px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text6{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.date6{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.textheader6{
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+
+.hr4 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+.photo10{
+    height: 400px;
+    width: 300px;
+}
+
+.photobox6{
+   display: grid;
+   grid-template-rows: 95px 95px 95px 95px;
+   grid-template-columns: 150px 150px 150px;
+   gap: 20px;
+   height: 450px;
+   width: 480px;
+   margin-bottom:25px ;
+   margin-top: 20px;
+}
+
+.eye{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.eye1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: 5px 5px 15px 0px;
+}
+.eye2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: 5px 5px 15px 0px;
+}
+.eye3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    box-shadow: 5px 5px 15px 0px;
+}
+.eye4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+/*Yeddinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.seven{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+
+.textbox7{
+    width: 550px;
+    height: 470px;
+}
+
+.photobox7{
+    width: 600px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text7{
+    display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.date7{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.textheader7{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+/*Kitablardan zəhləm gedir.  >:(
+Kodun bu kısmını yazmaq 2 günümü aldı*/
+
+.book-scene{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:18px;
+  width: 600px;
+  height: 700px;
+  margin-top: 70px;
+}
+
+.book{
+  position:relative;
+  perspective: 1800px;
+  height: 300px;
+  width: 250px;
+  transform: rotate(20deg);
+  margin-top: 130px;
+  margin-right: 50px;
+}
+
+.cover, .page {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  transform-style: preserve-3d;
+  transition: transform 900ms cubic-bezier(.2,.9,.3,1), box-shadow 450ms;
+  transform-origin: left center;
+}
+
+.cover{
+  background-color: white;
+  color: var(--cover-text, #000);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0 20px 50px rgba(0,0,0,.45);
+  backface-visibility: hidden;
+  border-radius: 6px;
+}
+
+.cover-front{
+    transform-origin: left center;
+    transform: translateZ(calc(var(--page-thickness, 4px) * 4)) rotateY(0deg);
+}
+
+.cover-back{
+  transform-origin: left center;
+  transform: translateZ(calc(var(--page-thickness, 4px) * -4)) rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+.pages{
+  position:absolute;
+  inset: 0;
+}
+
+.page{
+  transform-origin: left center;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.page-front, .page-back{
+  position:absolute;
+  top:0; left:0;
+  width:100%; height:100%;
+  backface-visibility: hidden;
+  overflow:hidden;
+  border-radius:4px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+}
+
+.page-front img, .page-back img{
+  width:80%;
+  height:70%;
+  object-fit:cover;
+  display:block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.page-back{
+  background-color: #f3f3f5;
+  transform: rotateY(180deg);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:14px;
+  color:#666;
+}
+
+.page.flipped{
+  transform: rotateY(-180deg);
+}
+
+.book.open .cover-front{
+  transform: translateZ(20px) rotateY(-160deg);
+  box-shadow: 0 30px 80px rgba(0,0,0,.5);
+}
+
+.page-front::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  box-shadow: inset -20px 0 40px -20px rgba(0,0,0,.25);
+}
+
+.controls{
+  display:flex;
+  gap:12px;
+}
+
+.controls button{
+  padding:10px 14px;
+  border-radius:8px;
+  border:0;
+  cursor:pointer;
+  background: rgb(183, 58, 87);;
+  color:white;
+  font-weight:600;
+}
+.controls button:active{ transform:translateY(1px) }
+
+@media (max-width:720px){
+  :root{ --book-width:320px; --book-height:220px; }
+}
+
+
+#prev{
+    position: absolute;
+    top: 5070px;
+    right: 520px;
+}
+#next{
+    position: absolute;
+    top: 4720px;
+    right: 100px;
+}
+
+.page-front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.page-front1{
+    background-color: rgb(255, 233, 238); ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-back4{
+    background-color: rgb(255, 233, 238); ;
+}
+
+.flower{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/*Səkkizinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.eight{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video3{
+    width: 600px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.textbox8{
+    width: 550px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photobox8{
+    width: 600px;
+    height: 360px;
+}
+
+.text8{
+    display: flex;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family:  'Poppins', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.date4{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textheader8{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    margin-right: 20px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+
+.hr8 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+
+/*Doqquzuncu səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.nine{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.textbox9{
+    width: 550px;
+    height: 450px;
+}
+
+.textheader9{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.text9{
+    display: flex;
+    font-size: 21px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.date9{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+.triphoto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+
+.photobox9{
+    width: 600px;
+    height: 450px;
+}
+
+.triangle-grid{
+    width: 600px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+    margin-top: 20px;
+    
+}
+
+.bottomnormal{
+    height: 405px;
+    width: 600px;
+    z-index: 1;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 0px;
+}
+
+.topnormal{
+    height: 200px;
+    width: 600px;
+    z-index: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+
+}
+
+.bottomreverse{
+    height: 200px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 5px;
+
+
+}
+
+.topreverse{
+    height: 200px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.normal1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    position: relative;
+
+}
+
+.big{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+
+}
+
+.normal3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left: 6px;
+    margin-right: 5px;
+    position: relative;
+
+}
+
+.reverse2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.reverse4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.hr9 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+
+
+/*Onuncu səhifə-------------------------------------------------------------------------------------------------*/
+
+.ten{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+    height: 480px ;
+}
+
+.textbox10{
+    width: 650px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text10{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.date10{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    
+}
+
+.textheader10{
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr10 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+
+.photobox10{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+   height: 450px;
+   width: 450px;
+   margin-bottom:25px ;
+   margin-top: 20px;
+   margin-right: 60px;
+}
+
+.photogrid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo24{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-right: 55px;
+    width: 250px;
+    transform: scaleX(-1);
+}
+.photo23{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 150px;
+    height: 250px;
+    margin-bottom: 55px;
+}
+
+.photo25{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 150px;
+    height: 250px;
+    margin-top: 45px;
+}
+
+.photo22{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: 55px;
+    width: 250px
+}
+
+.photo26{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 140px;
+}
+
+/*On Birinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.eleven{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 600px ;
+}
+
+.textbox11{
+    width: 570px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text11first{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.text11second{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: right;
+    margin-top: 40px;
+    
+}
+
+.date11{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textheader11{
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hr11 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox11{
+   display: grid;
+   gap: 20px;
+   height: 570px;
+   width: 570px;
+}
+
+.video4{
+    width: 570px;
+    height: 570px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+/*On Ikinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.twelve{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+}
+
+.textbox12{
+    width: 580px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text12{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 40px;
+    line-height: 28px;
+}
+
+.date12{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textheader12{
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hr12 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox12{
+   display: grid;
+   gap: 20px;
+   height: 320px;
+   width: 570px;
+}
+
+.video5{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/*On Üçüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+.thirteen{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 720px ;
+}
+
+.textbox13{
+    width: 590px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text13{
+    display: flex;
+    font-size: 22px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.date13{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.textheader13{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hr13 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox13{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 540px;
+   grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
+   grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+}
+
+.photoimg{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo27{
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+
+.photo28{
+    grid-column: 3 / 6;
+    grid-row: 1 / 4;
+}
+
+.photo29{
+    grid-column: 6 / 8;
+    grid-row: 1 / 4;
+}
+
+.photo30{
+    grid-column: 1 / 4;
+    grid-row: 4 / 7;
+}
+
+.photo31{
+    grid-column: 4 / 8;
+    grid-row: 4 / 10;
+}
+
+.photo32{
+    grid-column: 1 / 4;
+    grid-row: 7 / 10;
+}
+
+.photo33{
+    grid-column: 1 / 3;
+    grid-row: 10 / 13;
+}
+
+.photo34{
+    grid-column: 3 / 6;
+    grid-row: 10 / 13;
+}
+
+.photo35{
+    grid-column: 6 / 8;
+    grid-row: 10 / 13;
+}
+
+/*On Dördüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+.fourteen{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 720px ;
+}
+
+.textbox14{
+    width: 670px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.text14{
+    display: flex;
+    font-size: 23px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 15px;
+    position: absolute;
+    top: 120px;
+}
+
+.date14{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.textheader14{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hr14 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox14{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 460px;
+   grid-template-columns: 60px 60px 60px 60px 60px 60px;
+   grid-template-rows: 180px 140px 140px 180px;
+   margin-right: 20px;
+}
+
+.photoimg14{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo36{
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.photo37{
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+.photo41{
+    grid-row: 2/4;
+    grid-column: 1/4;
+}
+.photo39{
+    grid-row: 2/4;
+    grid-column: 4/7;
+}
+.photo38{
+    grid-row: 4/5;
+    grid-column: 1/5;
+}
+.photo40{
+    grid-row: 4/5;
+    grid-column: 5/7;
+}
+
+/*On Beşinci səhifə-------------------------------------------------------------------------------------------------*/
+
+.fifteen{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 750px ;
+    flex-direction: row;
+}
+
+.textbox15{
+    width: 420px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text15{
+    display: flex;
+    font-size: 22px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+}
+
+.date15{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.textheader15{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr15{
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox151{
+   display: grid;
+   gap: 20px;
+   height: 800px;
+   width: 360px;
+   grid-template-columns: 360px;
+   grid-template-rows: 230px 230px 230px;
+}
+
+.photobox152{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 360px;
+   grid-template-columns: 360px;
+   grid-template-rows: 230px 230px 230px;
+}
+
+.photoimg15{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+/*Onaltıncı səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.sixteen{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video6{
+    width: 600px;
+    height: 338px;
+    border-radius: 20px;
+}
+
+.textbox16{
+    width: 550px;
+    height: 340px;
+}
+
+.photobox16{
+    width: 600px;
+    height: 340px;
+}
+
+.textheader16{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+
+.text16{
+    display: flex;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;
+    
+    margin-right: 20px;
+}
+
+.date16{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+/*On Yeddinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.seventeen{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video7{
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.textbox17{
+    width: 550px;
+    height: 340px;
+}
+
+.photobox17{
+    width: 600px;
+    height: 445px;
+}
+
+.textheader17{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.text17{
+    display: flex;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;    
+    margin-right: 20px;
+}
+
+.date17{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+/*On Səkkizinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.eighteen{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 720px ;
+}
+
+.textbox18{
+    width: 720px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text18{
+    display: flex;
+    font-size: 22px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.date18{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.textheader18{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr18 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox18{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 460px;
+   grid-template-columns: 60px 60px 60px 60px 60px 60px;
+   grid-template-rows: 180px 140px 140px 180px;
+}
+
+.photoimg18{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo48{
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+.photo49{
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+
+.photo50{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.photo51{
+    grid-column: 4/7;
+    grid-row: 2/4;
+}
+
+.photo52{
+    grid-column: 1/3;
+    grid-row: 4/5;
+
+}
+.photo53{
+    grid-column: 3/7;
+    grid-row: 4/5
+}
+
+
+/*On Doqquzuncu səhifə-------------------------------------------------------------------------------------------------*/
+
+.nineteen{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video8{
+    width: 350px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.photobox191{
+    width: 346px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text191{
+    display: flex;
+    font-size: 22px;
+    margin-top: 15px;
+    font-family:  'Poppins', sans-serif;    
+    margin-right: 20px;
+    
+}
+
+.video9{
+    width: 780px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.photobox192{
+    width: 780px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text192{
+    display: flex;
+    font-size: 22px;
+    margin-top: 15px;
+    font-family:  'Poppins', sans-serif;    
+    margin-right: 20px;
+}
+
+.hr19 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+
+/*Iyirminci səhifə-------------------------------------------------------------------------------------------------*/
+
+.twenty{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.photobox201{
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video10{
+    width: 330px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.text201{
+    display: flex;
+    font-size: 22px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.photobox202{
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo54{
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    
+}
+
+.text202{
+    display: flex;
+    font-size: 22px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.photobox203{
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video11{
+    width: 360px;
+    height: 640px;
+    border-radius: 20px;
+}
+
+.text203{
+    display: flex;
+    font-size: 22px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.hr20 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+/*Iyirmi birinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.twentyone{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    height: 340px;
+}
+
+.video12{
+    width: 600px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.textbox21{
+    width: 540px;
+    height: 340px;
+}
+
+.photobox21{
+    width: 600px;
+    height: 445px;
+}
+
+.textheader21{
+    display: flex;
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.text21{
+    display: flex;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;    
+    margin-right: 20px;
+}
+
+.date21{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.hr21 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+/*Iyirmi ikinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.twentytwo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 720px ;
+}
+
+.textbox22{
+    width: 690px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text22{
+    display: flex;
+    font-size: 27px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.date22{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.textheader22{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr22 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox22{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 460px;
+   grid-template-columns: 60px 60px 60px 60px 60px 60px;
+   grid-template-rows: 180px 140px 140px 180px;
+}
+
+.photoimg22{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo56{
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+.photo55{
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+
+.photo58{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.photo60{
+    grid-column: 4/7;
+    grid-row: 2/4;
+}
+
+.photo57{
+    grid-column: 1/3;
+    grid-row: 4/5;
+
+}
+.photo59{
+    grid-column: 3/7;
+    grid-row: 4/5
+}
+
+
+/*İyirmi üçüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+.twentythree{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 660px ;
+    flex-direction: row;
+    
+}
+
+.textbox23{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.text23{
+    display: flex;
+    font-size: 24px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 0px;
+    bottom: 10px;
+    margin-top: 0px;
+}
+
+.date23{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.textheader23{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr23{
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox231{
+   display: grid;
+   gap: 20px;
+   height: 650px;
+   width: 300px;
+   grid-template-columns: 302px;
+   grid-template-rows: 200px 200px 200px;
+}
+
+.photobox232{
+   display: grid;
+   gap: 20px;
+   height: 650px;
+   width: 370px;
+   grid-template-columns: 45px 45px 45px 45px 45px 45px;
+   grid-template-rows: 130px 150px 150px 150px;
+   
+
+}
+
+.photoimg23{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+    
+}
+
+.photo64{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.photo65{
+    grid-column: 4/7;
+    grid-row: 1/2;
+}
+
+.photo66{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.photo67{
+    grid-column: 3/7;
+    grid-row: 2/3;
+}
+
+.photo68{
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+.photo69{
+    grid-column: 5/7;
+    grid-row: 3/4;
+}
+
+.photo70{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+.photo71{
+    grid-column: 3/7;
+    grid-row: 4/5;
+}
+
+
+
+/*İyirmi Dördüncü səhifə-------------------------------------------------------------------------------------------------*/
+
+.twentyfour{
+    margin-top: 0px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 900px ;
+    align-items: center;
+    position: relative;
+}
+
+.date24{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.hr24 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox24{
+   display: grid;
+   gap: 20px;
+   height: 850px;
+   width: 1200px;
+   grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+   grid-template-rows: 200px 200px 200px 200px;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+
+.photoimg24{
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+
+.photo72{
+    grid-column: 3/7;
+    grid-row: 1/2;
+}
+/*1*/
+
+.photo73{
+    grid-column: 9/13;
+    grid-row: 1/2;
+}
+/*2*/
+
+.photo79{
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+/*3*/
+
+.photo75{
+    grid-column: 5/9;
+    grid-row: 2/3;
+}
+/*4*/
+
+.photo78{
+    grid-column: 9/11;
+    grid-row: 2/3;
+}
+/*5*/
+
+.photo76{
+    grid-column: 11/15;
+    grid-row: 2/3;
+}
+/*6*/
+
+.photo83{
+    grid-column: 9/11;
+    grid-row: 4/5;
+}
+/*7*/
+
+.photo77{
+    grid-column: 5/9;
+    grid-row: 4/5;
+}
+/*8*/
+
+.photo74{
+    grid-column: 8/12;
+    grid-row: 3/4;
+}
+/*9*/
+
+.photo80{
+    grid-column: 12/14;
+    grid-row: 3/4;
+}
+/*10*/
+
+.photo81{
+    grid-column: 4/8;
+    grid-row: 3/4;
+}
+/*11*/
+
+.photo82{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+/*12*/
+
+.phototext{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    text-align: start;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+/*Iyirmi Beşinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.twentyfive{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video13{
+    width: 600px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.textbox25{
+    width: 560px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photobox25{
+    width: 600px;
+    height: 360px;
+}
+
+.text25{
+    display: flex;
+    font-size: 21px;
+    margin-top: 0px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.date25{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textheader25{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    margin-right: 20px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.hr25 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+
+/*İyirmi Altıncı səhifə-------------------------------------------------------------------------------------------------*/
+
+.twentysix{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    height: 640px ;
+}
+
+.textbox26{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text26{
+    display: flex;
+    font-size: 22px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.date26{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.textheader26{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hr26{
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.photobox26{
+   display: grid;
+   gap: 20px;
+   height: 700px;
+   width: 740px;
+   grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+   grid-template-rows: 150px 130px 150px 130px
+}
+
+.photoimg26{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:
+    2px 2px 15px rgba(0,0,0,0.4),
+    -2px 2px 15px rgba(0,0,0,0.4),
+    2px -2px 15px rgba(0,0,0,0.4),
+    -2px -2px 15px rgba(0,0,0,0.4);
+}
+
+.photo85{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.photo90{
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.photo100{
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.photo97{
+    grid-row: 1/2;
+    grid-column: 5/7;
+}
+
+.photo99{
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+.photo98{
+    grid-row: 3/4;
+    grid-column: 3/5;
+}
+
+.photo90{
+    grid-row: 3/4;
+    grid-column: 5/7;
+}
+
+
+/*Iyirmi Yeddinci səhifə-------------------------------------------------------------------------------------------------*/
+
+
+.twentyseven{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    height: 540px;
+}
+
+.video14{
+    width: 398px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+.textbox27{
+    width: 850px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photobox27{
+    width: 400px;
+    height: 560px;
+}
+
+.text27{
+    display: flex;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family:  'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.date27{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textheader27{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    margin-right: 20px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.hr27 {
+    position: relative;
+    z-index: 10;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+.final{
+    display: flex;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 30px;
+}
+/*Timer----------------------------------------------------------------*/
+
+.headerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timerbutton{
+    width: 200px;
+    height: 50px;
+    display: flex;            
+    align-items: center;       
+    justify-content: center;
+    padding: 12px 25px;
+    background: #ff4d6d;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:  'Poppins', sans-serif;
+}
